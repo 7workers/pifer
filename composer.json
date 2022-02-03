@@ -1,0 +1,22 @@
+{
+  "name": "7workers/pifer",
+  "description": "Simple image hasher",
+  "version": "1.0.6",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Deshkevich",
+      "email": "7workers@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pifer\\": "src/"
+    }
+  }
+}
